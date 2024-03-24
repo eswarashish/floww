@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils"
 import { Bar, BarChart, ResponsiveContainer, XAxis, YAxis } from "recharts"
-
+// ff
+//gg
 const data = [
   {
     name: "Jan",
@@ -73,10 +74,11 @@ export function Overview({className}) {
         <Bar
           dataKey="total"
           fill="currentColor"
-          radius={[4, 4, 0, 0]}
+          radius={[4, 4, 0, 0] }
           className={`fill-${className}-600`}
-          
         />
+
+
       </BarChart>
     </ResponsiveContainer>
   )
