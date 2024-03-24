@@ -65,7 +65,7 @@ function Flow() {
  
       <div   className="px-2 ">
         <Link href={"/board"}><Avatar className="w-8 h-8" >
-  <AvatarImage  src="https://github.com/shadcn.png" />
+  <AvatarImage  src="https://github.com/shadcn.png"/>
   <AvatarFallback>CN</AvatarFallback>
 </Avatar></Link>
       
