@@ -39,10 +39,12 @@ const BlockInfos = () => (
   <div className="absolute top-8 flex flex-col mx-auto max-w-[355px] items-center justify-center gap-10 md:max-w-fit md:gap-7 md:px-6 ">
     <p className="max-w-[480px] px-4 text-balance text-center font-normal text-lg md:text-xl md:px-0 md:max-w-[550px]">
       <span className="hidden md:inline text-6xl">
-       FLOWW
+       <img className=" w-56 h-auto" src="/FLOWW-removebg-preview.png" alt="" />
+       
       </span>
       <span className="inline md:hidden  text-6xl ">
-    FLOWW
+      <img className=" w-32 h-auto" src="/FLOWW-removebg-preview.png" alt="" />
+ 
       </span>
     </p>
     <div className="flex gap-4 md:pt-4 sm:top-2 sm:pt-8 pt-5 ">
