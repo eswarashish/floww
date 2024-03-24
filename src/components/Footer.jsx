@@ -11,7 +11,7 @@ export default function Component() {
             <YoutubeIcon className="h-6 w-6" />
             <span className="sr-only">YouTube</span>
           </Link>
-          <Link className=" hover:text-gray-300" href="#">
+          <Link className=" hover:text-gray-300" href="https://github.com/20bec023IIITDWD/floww/tree/master">
             <GithubIcon className="h-6 w-6" />
             <span className="sr-only">GitHub</span>
           </Link>

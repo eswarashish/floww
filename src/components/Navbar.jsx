@@ -17,7 +17,7 @@ import Image from "next/image"
 const components = [
   {
     title: "Github",
-    href: "/docs/primitives/alert-dialog",
+    href: "https://github.com/20bec023IIITDWD/floww/tree/master",
     description:
       "Source Code",
   },
