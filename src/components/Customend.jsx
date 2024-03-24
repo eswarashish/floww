@@ -68,7 +68,7 @@ const Customend = ({ data, isConnectable, selected }) => {
   return (
       <RecoilRoot> 
         <NodeResizer color={getRandomColor()} isVisible={selected} minWidth={100} minHeight={70} />
-          <div onClick={handleNodeClick} className={`relative w-full h-full bg-gradient-to-b from-${colorGradient}-500 to-${colorGradient}-700 border border-gray-300 rounded-lg  text-gray-800 min-h-24 min-w-24 shadow-lg overflow-hidden`}>
+          <div onClick={handleNodeClick} style={{backgroundColor: `${colorGradient}`}}  className={`relative w-full h-full bg-gradient-to-b from-${colorGradient}-500 to-${colorGradient}-700 border border-gray-300 rounded-lg  text-gray-800 min-h-24 min-w-24 shadow-lg overflow-hidden`}>
               <Handle  id="black" type='target' position={Position.Left} isConnectable={isConnectable}   style={{ ...DEFAULT_HANDLE_STYLE,  background: `${colorGradient}` }}/>
               <div className="grid place-items-center h-full text-xxl ">
                <Progress value={progress} className="grid place-items-center h-2 w-4/5 "/>

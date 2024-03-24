@@ -68,7 +68,7 @@ const Customstart = ({ data, isConnectable, selected }) => {
   return (
       <RecoilRoot> 
          <NodeResizer color={getRandomColor()} isVisible={selected} minWidth={100} minHeight={70} />
-          <div onClick={handleNodeClick} className={`relative w-full h-full bg-gradient-to-b -z-20 from-${colorGradient}-500 to-${colorGradient}-700 border border-gray-300 rounded-lg  text-gray-800 min-h-16 min-w-16  shadow-lg overflow-hidden`}>
+          <div onClick={handleNodeClick}  style={{backgroundColor: `${colorGradient}`}} className={`relative w-full h-full bg-gradient-to-b -z-20  border border-gray-300 rounded-lg  text-gray-800 min-h-16 min-w-16  shadow-lg overflow-hidden`}>
            
          <div className="grid place-items-center h-full text-xl ">
                <Progress value={progress} className="grid place-items-center h-2 w-4/5 "/>

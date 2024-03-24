@@ -75,7 +75,8 @@ export function Overview({className}) {
           dataKey="total"
           fill="currentColor"
           radius={[4, 4, 0, 0] }
-          className={`fill-${className}-600`}
+         
+          style={{color: `${className}`}}
         />
 
 
